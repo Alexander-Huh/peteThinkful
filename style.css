@@ -15,7 +15,7 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
-/*centers the ordered list for the contact page  */
+/*centers the ordered list for the contact page   */
 ol{
   display:inline-block;
   text-align: left;
@@ -50,7 +50,7 @@ img {
 }
 
 hr {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 /* Add your solution below */
@@ -62,12 +62,14 @@ hr {
 .nav_bar{
   text-align: center;
   color: #9f0000;
-  margin: 2vw;
+  padding-bottom: 25px;
 }
 .center{
   text-align: center;
 }
 a:link {color:#d62828}
-a:visited {color:}
 a:hover {color:#f77f00}
-a:active {color:}
+
+nav > a {
+  padding: 15px;
+}
